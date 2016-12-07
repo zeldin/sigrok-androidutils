@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.sigrok.sigrok-core-android"
+    android:versionCode="${bindings.versioncode}"
+    android:versionName="${bindings.version}" >
+
+    <uses-sdk
+        android:minSdkVersion="12" />
+
+    <application>
+       <meta-data android:name="org.sigrok.androidutils.jni_libs_resource_id" android:resource="@array/sigrok_androidutils_jni_libs"/>
+    </application>
+
+</manifest>
